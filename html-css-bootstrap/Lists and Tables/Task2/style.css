@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+    table{
+    margin:10px auto;
+    width:400px;
+    text-align:center;
+    justify-content:center;
+    color:black;
+    background-color:yellow;
+    border:2px solid rgb(82, 82, 239);
+    font-family: 'Times New Roman', Times, serif;
+}
+thead{
+    color:white;
+    background-color:red;
+    text-align:center;
+}
+td{
+color:black;
+background-color:rgb(77, 148, 7);
+}
+h3{
+    color:black;
+    background-color: yellow;
+}

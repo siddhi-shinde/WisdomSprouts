@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+   display: flex;
+   margin:50px;
+   border:1px solid grey; 
+   width:200px;
+   border-radius: 10px;
+}
+.form{
+    justify-content: center;
+    align-items:center;
+}
+h1{
+    font-color:grey;
+}
+.btn{
+    margin-left: 10px;
+}
+

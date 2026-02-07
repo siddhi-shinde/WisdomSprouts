@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+</head>
+<body>
+    <div class="container">
+       
+        <form>
+    <h3>Registration</h3>
+    
+        <div class="section-title">Personal Details</div><br/>
+        <div class="grid-form">
+        <label>Full Name</label>
+        <label>Date of Birth</label>
+        <label>Email</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter your name" required/>
+        <input type="date" name="dob" id="dob" placeholder="Enter birth date" required/>
+        <input type="Email" name="mail" id="mail" placeholder="Enter your email" required/>
+        <label>Mobile number</label>
+        <label>Gender</label>
+        <label>Occupation</label>
+        <input type="number" name="mobno" id="mobno" placeholder="Enter mobile number" required/>
+        <input type="text" name="gender" id="gender" placeholder="Enter your gender" required/>
+        <input type="text" name="Occupation" id="Occupation" placeholder="Enter Occupation" required/>
+        </div>
+
+        <div class="section-title">Identity Details</div><br/>
+
+        <div class="grid-form">
+        <label>ID Type</label>
+       
+        <label>ID Number</label>
+        
+        <label>Issue Authority</label>
+         <input type="text" name="idtype" id="idtype" placeholder="Enter ID Type" required/>
+         <input type="text" name="idno" id="idno" placeholder="Enter ID number" required/>
+        <input type="text" name="dept" id="dept" placeholder="Enter issue department" required/>
+        <label>Issue Date</label>
+        <label>Issue State</label>
+        <label>Expiry Date</label>
+        <input type="date" name="idate" id="idate" placeholder="Enter ID issue date" required/>
+        <input type="text" name="state" id="state" placeholder="Enter ID issue state" required/>
+        <input type="date" name="expdate" id="expdate" placeholder="Enter ID expiry date" required/>
+         <button class="btn">Next <i class="fa-solid fa-arrow-right"></i></button>
+        <!-- <button class="btn"> Next<i class="fa-solid fa-right-long"></i>
+        </button> -->
+        </form>
+    </div>
+</body>
+</html>

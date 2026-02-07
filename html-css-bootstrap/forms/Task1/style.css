@@ -1,0 +1,43 @@
+*{
+margin-top:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+margin:15px;
+padding: 5px 10px;
+}
+.formElement{
+  border:1px solid black;
+  width:450px;
+  margin:80px auto;
+  padding:25px;
+}
+button{
+    width:400px;
+    padding:6px;
+    margin-top:15px;
+  border: 1px solid #999;
+}
+h1,h3{
+  text-align:center;
+
+}
+input{
+  width:100%;
+  padding:8px;
+  /* margin-top:5px; */
+ border: 1px solid #aaa;
+}
+form{
+  text-align:center;
+ 
+}
+label{
+  display:block;
+  margin-top: 12px;
+  text-align: left;
+}
+.login{
+  text-align:center;
+}
