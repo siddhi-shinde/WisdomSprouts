@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Position Playground</title>
+
+<style>
+  body {
+    height: 1500px; 
+    font-family: Arial, sans-serif;
+  }
+
+ 
+  .box {
+    width: 150px;
+    height: 150px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  /* Box 1 - Static */
+  .box1 {
+    position: static;
+    background-color: red;
+  }
+
+  /* Box 2 - Relative */
+  .box2 {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: blue;
+    z-index: 2; /* Overlapping */
+  }
+
+  /* Box 3 - Absolute */
+  .box3 {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    background-color: green;
+    z-index: 1;
+  }
+
+  /* Box 4 - Fixed */
+  .box4 {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: purple;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="box box1">
+  Box 1 - Static
+</div>
+
+<div class="box box2">
+  Box 2 - Relative
+</div>
+
+<div class="box box3">
+  Box 3 - Absolute
+</div>
+
+<div class="box box4">
+  Box 4 - Fixed (Bottom Right)
+</div>
+
+</body>
+</html>
