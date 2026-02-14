@@ -1,0 +1,80 @@
+/* Remove default margin */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Landing Section */
+.landing{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Gradient Background */
+    background: linear-gradient(45deg,#d807d1,#2575fc);
+    color: white;
+    text-align: center;
+}
+
+/* Content Styling */
+.content h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+    /* Heading Animation */
+    animation: slideDown 1.5s ease;
+}
+
+.content p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity:50; 
+    animation:fadeIn 2s ease-in forwards;
+    /* animation-delay:1s; */
+    animation-direction: alternate;
+}
+
+/* Button Styling */
+.btn{
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    color: #2575fc;
+    cursor: pointer;
+
+    /* Smooth Transition */
+    transition: 0.4s;
+}
+
+/* Button Hover Animation */
+.btn:hover{
+    background-color: #d807d1;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Keyframe Animation */
+@keyframes slideDown{
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
