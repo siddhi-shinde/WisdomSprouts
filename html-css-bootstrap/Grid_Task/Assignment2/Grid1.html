@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid Image Layout</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 500px;
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 100%;
+      object-fit:fill;
+      border-radius: 10px;
+      /* height:500px;
+      width:500px; */
+      /* border:2px solid black;
+      gap:0px; */
+    }
+
+    /* Custom Grid Placement */
+    .img1 {
+       grid-column: span 1;
+    }
+    .img2 {
+       grid-column: span 1; 
+    }
+    .img3 { 
+       grid-row: span 2; 
+    }
+    .img4 {
+       grid-column: span 2; 
+    }
+    .img5 {
+       grid-column: span 1; 
+    }
+    .img6 {
+       grid-column: span 1; 
+    }
+  </style>
+</head>
+<body>
+
+<h2>Responsive Grid Gallery</h2>
+
+<div class="gallery">
+  <img src="./assets/fruit1.jpeg" class="img1">
+  <img src="./assets/fruit2.jpeg" class="img2">
+  <img src="./assets/fruit3.jpeg" class="img3">
+  <img src="./assets/fruit4.jpeg" class="img4">
+  <img src="./assets/fruit5.jpeg" class="img5">
+  <img src="./assets/fruit6.jpeg" class="img6">
+</div>
+
+</body>
+</html>
