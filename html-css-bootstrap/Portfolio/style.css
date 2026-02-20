@@ -122,8 +122,6 @@ form input{
     border: transparent;
 }
 
-
-
 .footer{
     height: 60px;
     background-color: black;
@@ -132,6 +130,7 @@ form input{
     justify-items: center;
     align-content: center;
 }
+
 
 
 
